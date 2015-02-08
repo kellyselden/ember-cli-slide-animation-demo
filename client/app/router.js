@@ -9,6 +9,7 @@ Router.map(function() {
   this.resource('route1', function() {
     this.resource('route2');
   });
+  this.resource('route3');
 });
 
 export default Router;
